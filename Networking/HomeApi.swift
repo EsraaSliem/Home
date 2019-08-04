@@ -8,7 +8,7 @@
 
 import Foundation
 enum HomeRouting : String{
-    case Events , Hotspots , Attractions = "http://tourista.167.99.5.134.xip.io/api/home"
+    case HomeURl = "http://tourista.167.99.5.134.xip.io/api/home"
 }
 
 enum JsonType :String

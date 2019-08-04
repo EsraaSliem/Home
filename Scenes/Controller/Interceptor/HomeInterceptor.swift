@@ -13,7 +13,7 @@ class HomeInteractor {
     
     func placeList(jsonType: String,completionHandler: @escaping (Array<Place>?)->Void) {
         var placeList : Array<Place>?
-        Alamofire.request("http://tourista.167.99.5.134.xip.io/api/home").responseJSON  {
+        Alamofire.request(HomeRouting.HomeURl.rawValue).responseJSON  {
             response in
             switch response.result {
             case .success:
