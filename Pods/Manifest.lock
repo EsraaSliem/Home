@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.2)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SwiftyJSON (3.1.4)
+  - XXXRoundMenuButton (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SDWebImage (~> 4.0)
+  - SwiftyJSON (~> 3.0)
+  - XXXRoundMenuButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SDWebImage
+    - SwiftyJSON
+    - XXXRoundMenuButton
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XXXRoundMenuButton: 8a7b47d34e0c2f470c2bea72ad4d3db919750f78
+
+PODFILE CHECKSUM: 25e4f830db116e2d01d68552c512286cb5716030
+
+COCOAPODS: 1.6.1
